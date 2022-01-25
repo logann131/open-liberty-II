@@ -29,7 +29,7 @@ public class HelloServlet extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) 
         throws ServletException, IOException {
-        response.getWriter().append("Hello! How are you?\n");
+        response.getWriter().append("Hello! How are you? Smile!!\n");
     }
 
     /**
